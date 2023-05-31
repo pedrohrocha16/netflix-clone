@@ -7,16 +7,17 @@
 }
 .main h1 {
    color: rgb(236, 236, 236);
+   font-size: 40px;
    font-weight: 800;
+   margin-bottom: 1rem;
 }
-.main h4 {
+.main h2 {
    color: rgb(236, 236, 236);
-   font-size: 18px;
    font-weight: 500;
+   margin: 1rem;
 }
 .main p {
    color: rgb(236, 236, 236);
-   font-size: 18px;
    font-weight: 500;
 }
 .main input {
@@ -50,6 +51,11 @@
    .main input {
       margin-bottom: 1rem;
       width: 65vw;
+   }
+}
+@media (min-width: 425px) {
+   .main input {
+      width: 70vw;
    }
 }
 @media (min-width: 768px) {

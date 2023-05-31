@@ -1,0 +1,66 @@
+.popcorn {
+   height: 8rem;
+   width: 10rem;
+}
+.desc {
+   display: flex;
+   flex-direction: column;
+}
+.desc h3{
+   margin: 0;
+}
+.desc_p{
+   font-size: 14px;
+}
+.desc a{
+   color: #448ef4;
+   font-weight: bold;
+}
+
+@media (min-width: 320px) {
+   .plano {
+      background: radial-gradient( 120.35% 220% at 49.86% -6.29%, #e50914 0%, #0e1b4f 46.15%, #0d1121 100% );
+      border-radius: 5px;
+      display: block;
+      margin: 40px 40px;
+      padding: 30px;
+   }
+   .desc {
+      align-items: center;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+   }
+   .popcorn {
+      top: -5rem;
+      left: -5rem;
+      height: 12rem;
+      position: relative;
+      width: 15rem;
+   }
+}
+
+@media (min-width: 768px) {
+   .plano {
+      align-items: center;
+      background: radial-gradient( 51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100% );
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 4.5rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      padding: 3.5rem;
+   }
+   .popcorn {
+      top: 0;
+      left: 0;
+      height: 12rem;
+      position: relative;
+      width: 15rem;
+   }
+   .desc {
+      align-items: flex-start;
+   }
+   
+}
