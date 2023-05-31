@@ -1,0 +1,63 @@
+.main {
+   color: white;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   position: relative;
+}
+.main h1 {
+   color: rgb(236, 236, 236);
+   font-weight: 800;
+}
+.main h4 {
+   color: rgb(236, 236, 236);
+   font-size: 18px;
+   font-weight: 500;
+}
+.main p {
+   color: rgb(236, 236, 236);
+   font-size: 18px;
+   font-weight: 500;
+}
+.main input {
+   background-color: rgba(0, 0, 0, 0.712);
+   border: 1px solid rgba(255, 255, 255, 0.363);
+   border-radius: 4px;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+   height: 2.675rem;
+   padding-left: 0.8rem;
+   margin-right: 0.2rem;
+   width: 300px;
+}
+.main button {
+   background-color: red;
+   border: 1px solid red;
+   border-radius: 4px;
+   color: white;
+   cursor: pointer;
+   font-size: 18px;
+   font-weight: bold;
+   height: 3rem;
+   width: 8rem;
+}
+
+@media (min-width: 320px) {
+   .main {
+      top: 2rem;
+   }
+   .main input {
+      margin-bottom: 1rem;
+      width: 65vw;
+   }
+}
+@media (min-width: 768px) {
+   .main {
+      top: 8rem;
+   }
+   .main input {
+      margin-bottom: 0;
+      width: 300px;
+   }
+}
