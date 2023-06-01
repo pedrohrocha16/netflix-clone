@@ -22,7 +22,7 @@
       background: radial-gradient( 120.35% 220% at 49.86% -6.29%, #e50914 0%, #0e1b4f 46.15%, #0d1121 100% );
       border-radius: 5px;
       display: block;
-      margin: 40px 40px;
+      margin: 50px 40px;
       padding: 30px;
    }
    .desc {
@@ -32,11 +32,42 @@
       justify-content: center;
    }
    .popcorn {
+      top: 28rem;
+      left: 0rem;
+      height: 6rem;
+      position: absolute;
+      width: 8rem;
+   }
+}
+@media (min-width: 375px) {
+   .popcorn {
+      top: 25rem;
+   }
+}
+@media (min-width: 425px) {
+   .popcorn {
+      top: 23rem;
+   }
+}
+@media (min-width: 560px) {
+   .popcorn {
       top: -5rem;
-      left: -5rem;
-      height: 12rem;
+      left: -10rem;
+      height: 8rem;
+      padding-bottom: 2rem;
       position: relative;
-      width: 15rem;
+      width: 12rem;
+   }
+   .plano {
+      height: 20vh;
+   }
+   .desc {
+      align-items: flex-start;
+      position: relative;
+      top: -17vh;
+   }
+   .main input {
+      width: 75vw;
    }
 }
 
@@ -47,6 +78,7 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
+      height: 10vh;
       margin-top: 4.5rem;
       margin-left: 3rem;
       margin-right: 3rem;
@@ -61,6 +93,6 @@
    }
    .desc {
       align-items: flex-start;
+      top: 0;
    }
-   
 }

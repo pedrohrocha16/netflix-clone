@@ -1,7 +1,7 @@
 .nav {
    align-items: center;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    height: 8vh;
 }
 .nav ul {
@@ -59,11 +59,11 @@
       margin-right: 0;
       width: 90px;
    }
-}
+}  
 @media (min-width: 768px) {
    .nav {
       height: 10vh;
-      justify-content: space-around;
+      justify-content: space-between;
       margin-left: 2rem;
       margin-right: 2rem;
    }
@@ -76,7 +76,6 @@
    }
    .nav select {
       font-size: 15px;
-      margin-right: 1.2rem;
       width: 8rem;
    }
 }

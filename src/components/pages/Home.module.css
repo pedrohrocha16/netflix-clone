@@ -7,17 +7,19 @@
 }
 .main h1 {
    color: rgb(236, 236, 236);
-   font-size: 40px;
+   font-size: 32px;
    font-weight: 800;
    margin-bottom: 1rem;
 }
 .main h2 {
    color: rgb(236, 236, 236);
+   font-size: 18px;
    font-weight: 500;
    margin: 1rem;
 }
 .main p {
    color: rgb(236, 236, 236);
+   font-size: 18px;
    font-weight: 500;
 }
 .main input {
@@ -38,10 +40,10 @@
    border-radius: 4px;
    color: white;
    cursor: pointer;
-   font-size: 18px;
+   font-size: 23px;
    font-weight: bold;
-   height: 3rem;
-   width: 8rem;
+   height: 3.2rem;
+   width: 10rem;
 }
 
 @media (min-width: 320px) {
@@ -63,7 +65,9 @@
       top: 8rem;
    }
    .main input {
+      height: 3.2rem;
       margin-bottom: 0;
-      width: 300px;
+      margin-right: 0.5rem;
+      width: 380px;
    }
 }
