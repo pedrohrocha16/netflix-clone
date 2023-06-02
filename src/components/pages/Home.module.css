@@ -5,7 +5,7 @@
    text-align: center;
    position: relative;
 }
-.main h1 {
+.main_title {
    color: rgb(236, 236, 236);
    font-size: 32px;
    font-weight: 800;
@@ -17,7 +17,7 @@
    font-weight: 500;
    margin: 1rem;
 }
-.main p {
+.main_desc {
    color: rgb(236, 236, 236);
    font-size: 18px;
    font-weight: 500;

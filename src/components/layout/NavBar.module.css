@@ -51,13 +51,18 @@
       font-size: 13px;
       height: 2.3rem;
       margin-left: 0.5rem;
-      width: 70px;
+      width: 60px;
    }
    .nav select {
       font-size: 10px;
       height: 2.3rem;
       margin-right: 0;
       width: 90px;
+   }
+}
+@media (min-width: 375px) {
+   .nav li {
+      margin-right: 0.5rem;
    }
 }  
 @media (min-width: 768px) {
