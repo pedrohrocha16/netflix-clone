@@ -11,9 +11,10 @@ function Section({title, text, img, alt}) {
             <p className={styles.section_desc_text}>Assista em Smart Tvs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositos</p>
          </div>
           <div className={styles.tv}>
+              <video className={styles.movie} autoPlay playsInline muted loop>
+                <source src={movie} type="video/mp4"/>
+              </video>
             <img className={styles.section_tv_img} src={tv} alt="alt" />
-          </div>
-          <div className={styles.div}>
           </div>
     </section>
   )
