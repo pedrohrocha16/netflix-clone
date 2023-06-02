@@ -13,49 +13,46 @@
    margin-left: 1.8rem;
    margin-right: 1.8rem;
 }
-.section_desc_img {
-   padding-bottom: 3rem;
+.movie {
+   box-sizing: border-box;
+   display: flex;
+   left: 13vw;
    position: relative;
-   width: 80vw;
+   top: -23vh;
+   max-width: 80vw;
+
+}
+.section_desc {
+   height: 230px;
+}
+.tv {
+   align-items: center;
+   display: flex;
+   height: 30vh;
+   justify-content: center;
+}
+.section_tv_img {
+   display: flex;
+   max-width: 310px;
+   position: relative;
 }
 .div {
    align-items: flex-start;
    border-bottom: 8px solid rgba(255, 255, 255, 0.185);
-   display: flex;
    margin: -8px;
    padding: 0;
    width: 100vw;
 }
-.movie {
-   display: flex;
-   height: 6.9rem;
-   left: 4rem;
-   position: absolute;
-   top: 62.9rem;
-}
 @media (min-width: 375px) {
-   .movie {
-      box-sizing: border-box;
-      height: 8rem;
-      left: 4.3rem;
-      position: absolute;
-      top: 58rem;
-   }
+
 }
 @media (min-width: 425px) {
-   .movie {
-      height: 9rem;
-      left: 5.5rem;
-      position: absolute;
-      top: 55rem;
-   }
+
 }
 @media (min-width: 768px) {
-   .movie {
-      height: 16rem;
-      left: 9.8rem;
-      position: absolute;
-      top: 50rem;
+   .section_tv_img {
+      top: -3rem;
+      height: 15rem;
    }
 }
 @media (min-width: 1024px) {
@@ -80,20 +77,10 @@
       text-align: initial;
       max-width: 500px;
    }
-   .section_desc_img {
-      max-height: 440px;
-      position: relative;
-      top: -50px;
-      max-width: 440px;
-      left: -30px;
-   }
-   .movie {
-      display: flex;
-      height: 50vh;
-      left: 36.9rem;
-      position: absolute;
-      top: 30.5rem;
-      width: 44vh;
+   .section_tv_img {
+      top: -30px;
+      height: 250px;
+      left: 60px;
    }
 }
 @media (min-width: 1440px) {
@@ -103,16 +90,9 @@
    .section_desc_text {
       margin: 0px 10rem;
    }
-   .section_desc_img {
+  /* .section_desc_img {
       left: -50px;
       top: -50px;
       max-width: 500px;
-   }
-   .movie {
-      display: flex;
-      left: 52.9rem;
-      position: absolute;
-      top: 30.5rem;
-      width: 44vh;
-   }
+   } */
 }
